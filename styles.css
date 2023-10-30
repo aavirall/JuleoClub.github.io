@@ -9,8 +9,14 @@
     src: url('assets/fonts/Lato-Regular.ttf') format('truetype');
 }
 
-body {
+
+html {
     background: linear-gradient(to bottom, #670762, #A9096C);
+    height: 100%;
+}
+
+body {
+    background-color: transparent;
     font-family: 'Lato', sans-serif;
     height: 100vh;
     margin: 0;
