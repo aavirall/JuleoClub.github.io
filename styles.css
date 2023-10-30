@@ -10,13 +10,16 @@
 }
 
 
-html {
-    background: linear-gradient(to bottom, #670762, #A9096C);
-    height: 100%;
+
+@supports(padding:max(0px)) {
+    body, header, footer {
+        padding-left: min(0vmin, env(safe-area-inset-left));
+        padding-right: min(0vmin, env(safe-area-inset-right));
+    }
 }
 
 body {
-    background-color: transparent;
+    background: linear-gradient(to bottom, #670762, #A9096C);
     font-family: 'Lato', sans-serif;
     height: 100vh;
     margin: 0;
@@ -25,10 +28,10 @@ body {
     align-items: center;
     color: white;
     font-size: 2em;
-    padding-top: env(safe-area-inset-top);
+    /* /* padding-top: env(safe-area-inset-top); */
     padding-right: env(safe-area-inset-right);
-    padding-bottom: env(safe-area-inset-bottom);
-    padding-left: env(safe-area-inset-left);
+    /* padding-bottom: env(safe-area-inset-bottom); */
+    padding-left: env(safe-area-inset-left); */
 }
 
 .container {
