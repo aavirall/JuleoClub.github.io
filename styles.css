@@ -1,0 +1,61 @@
+/* Font Face Declarations */
+@font-face {
+    font-family: 'Amithen';
+    src: url('assets/fonts/Amithen.ttf') format('truetype'); /* Adjust based on your file type */
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('assets/fonts/Lato-Regular.ttf') format('truetype'); /* Adjust based on your file type */
+}
+
+body {
+    background: linear-gradient(to bottom, #670762, #A9096C);
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+}
+
+.container {
+    text-align: center; /* Center aligns all inline-level content */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center aligns flex items on the cross axis (horizontally in this case) */
+    justify-content: center; /* Center aligns flex items on the main axis (vertically in this case) */
+}
+
+.container .logo {
+    font-family: 'Amithen', cursive; /* Using Amithen font for Julieo */
+    font-size: 8em;
+    margin-bottom: 20px;
+}
+
+
+.container .logo img {
+    max-width: 2em; /* Or whatever size you prefer */
+}
+.container .coming-soon {
+    font-size: 0.8em;
+    margin-bottom: 40px;
+}
+
+.download-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.download-buttons div {
+    cursor: default;
+    background: transparent;
+}
+
+.download-buttons img {
+    max-width: 120px;
+    width: 100%;
+    background: transparent;
+}
