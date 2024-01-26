@@ -30,7 +30,7 @@ function App() {
             TeamRef: teamRef,
             ContactRef: contactRef
         }}>
-            <div className="relative m-auto max-w-[1440px] min-w-[360px]">
+            <div className="font-DMSans relative m-auto max-w-[1440px] min-w-[360px]">
                 {/* <img className="hidden md:block md:absolute z-10 top-[216px] -left-[52px]" src={thread} /> */}
                 <Header />
                 <svg className="hidden md:block path_thread md:absolute z-10 md:top-[272px] xl:top-[246px] -left-[52px]" viewBox="0 0 1522 532" fill="none" xmlns="http://www.w3.org/2000/svg">
