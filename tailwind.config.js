@@ -9,6 +9,9 @@ module.exports = {
       'Frank': ['"Frank Ruhl Libre"', 'serif'],
     },
     extend: {
+      screens: {
+        '2lg': '1441px',
+      },
       colors: {
         textColor: "#ebedef",
         wine: {

@@ -25,7 +25,7 @@ function MeetTheTeam() {
     return (
         <div ref={globalStateContext.TeamRef} className="flex flex-col items-center text-center p-5 md:px-[8%] xl:px-[120px] md:pb-[120px] space-y-7">
             <h1 className="font-Frank text-5xl md:text-[56px] lg:text-[64px] text-wine-100 font-medium md:tracking-[-2.56px]">Meet the team</h1>
-            <p className="text-base text-gray-80 md:text-2xl tracking-[1px] ">Our team boasts alumni from prestigious organizations such as: </p>
+            <p className="text-base text-gray-80 md:text-2xl tracking-[1px] md:font-medium ">Our team boasts alumni from prestigious organizations such as: </p>
             
             <div className="flex flex-wrap justify-center">
 
