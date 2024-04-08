@@ -4,11 +4,11 @@ import Google from "../assets/Google.svg"
 import Amazon from "../assets/Amazon.svg"
 import PnG from "../assets/Png.svg"
 import McKinsey from "../assets/Mck.svg"
-import ByteDance from "../assets/Bytedance.svg"
+import Bcg from "../assets/Bcg.svg"
 import Uber from "../assets/Uber.svg"
 import Zomato from "../assets/Zomato.svg"
-import Unacademy from "../assets/Unacademy.svg"
-import UBS from "../assets/Ubs.svg"
+import Udaan from "../assets/udaan.svg"
+import Inmobi from "../assets/inmobi.svg"
 import Card from "./Cards";
 import Card2 from "./Cards2";
 import useWindowDimensions from "../hooks/useWindowDimensions"
@@ -32,12 +32,15 @@ function MeetTheTeam() {
                 <div className="w-[100px] px-5 min-h-20 md:w-48 md:px-12 xl:w-52 xl:px-10 md:min-h-24"><img className="h-full" src={Google} alt="" /></div>
                 <div className="w-[100px] px-5 min-h-20 md:w-48 md:px-12 xl:w-52 xl:px-10 md:min-h-24"><img className="h-full" src={Amazon} alt="" /></div>
                 <div className="w-[100px] px-4 min-h-20 md:w-48 md:px-8  xl:w-52 xl:px-8  md:min-h-24"><img className="h-full" src={McKinsey} alt="" /></div>
-                <div className="w-[100px] px-4 min-h-20 md:w-48 md:px-8  xl:w-52 xl:px-8  md:min-h-24"><img className="h-full" src={ByteDance} alt="" /></div>
-                <div className="w-[80px] px-5 min-h-20 md:w-[160px] md:px-12 xl:w-[160px] xl:px-10 "><img className="h-full" src={PnG} alt="" /></div>
+                
+                <div className="w-[80px] px-5 min-h-20 md:w-[160px] md:px-12 xl:w-[160px] xl:px-10"><img className="h-full" src={Bcg} alt="" /></div>
+                
+                <div className="w-[80px] px-5 min-h-20 md:w-[160px] md:px-12 xl:w-[160px] xl:px-10"><img className="h-full" src={PnG} alt="" /></div>
                 <div className="w-[100px] px-5 min-h-20 md:w-48 md:px-12 xl:w-52 xl:px-10 md:min-h-24"><img className="h-full" src={Uber} alt="" /></div>
                 <div className="w-[100px] px-5 min-h-20 md:w-48 md:px-12 xl:w-52 xl:px-10 md:min-h-24"><img className="h-full" src={Zomato} alt="" /></div>
-                <div className="w-[100px] px-5 min-h-20 md:w-48 md:px-8  xl:w-52 xl:px-8  md:min-h-24"><img className="h-full" src={Unacademy} alt="" /></div>
-                <div className="w-[100px] px-5 min-h-20 md:w-48 md:px-12 xl:w-52 xl:px-10 md:min-h-24"><img className="h-full" src={UBS} alt="" /></div>
+                
+                <div className="w-[80px] px-5 min-h-20 md:w-[160px] md:px-12 xl:w-[160px] xl:px-10"><img className="h-full" src={Udaan} alt="" /></div>
+                <div className="w-[100px] px-5 min-h-20 md:w-48 md:px-12 xl:w-52 xl:px-10 md:min-h-24"><img className="h-full" src={Inmobi} alt="" /></div>
             </div>
             <div className="flex space-x-8">
                 {width <= mediumScreen ? (

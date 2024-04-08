@@ -18,7 +18,10 @@ function Header() {
 
   return (
     <header className="sticky flex px-5 py-4 md:px-[120px] md:py-8 h-[68px] md:h-[136px] justify-center items-center box_shadow_bot z-30">
-      <img className="h-10 w-16 md:h-16 md:w-24" src={logo} alt="" />
+      {/* <img className="h-10 w-16 md:h-16 md:w-24" src={logo} alt="" /> */}
+      <a href="https://www.juleo.club/">
+        <img className="h-10 w-16 md:h-16 md:w-24" src={logo} alt="" />
+      </a>
       {width <= mediumScreen ? (
         <HamburgerIcon
           hamburgerClicked={hamburgerClicked}
@@ -91,9 +94,9 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
         classNames="dropdown"
         unmountOnExit
       >
-        <div className="dropdown-container absolute w-full h-screen top-full right-0 mt-1">
-          <div className="flex flex-col text-start">
-            <button className="block px-6 py-4 text-gray-80 box_shadow_bot_wine text-left" onClick={scrollToAboutUs}>
+        <div className="absolute w-full h-screen top-full right-0 mt-1 bg-white">
+          <div className="flex flex-col text-start bg-white">
+            <button className="px-6 py-4 text-gray-80 box_shadow_bot_wine text-left" onClick={scrollToAboutUs}>
               About Us
             </button>
             <button className="block px-6 py-4 text-gray-80 box_shadow_bot_wine text-left" onClick={scrollToTeam}>

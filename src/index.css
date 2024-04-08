@@ -17,6 +17,7 @@ code {
 }
 
 
+
 /* ----------------------------------------------------------------------- */
 
 .custom-break-words {
@@ -80,13 +81,13 @@ code {
 }
 
 .dropdown-container {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  width: 100%;
-  background-color: white;
-  border-radius: 4px;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  /* position: absolute; */
+  /* top: 100%; */
+  /* right: 0; */
+  /* width: 100%; */
+  background-color: red;
+  /* border-radius: 4px; */
+  /* box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); */
 }
 
 .logo-path path {
