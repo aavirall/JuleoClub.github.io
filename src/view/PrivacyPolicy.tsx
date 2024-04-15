@@ -5,7 +5,7 @@ function PrivacyPolicy() {
     return (
         <>
             <Header2 />
-            <div className="flex-col items-center justify-center md:justify-normal md:px-[120px] space-y-2">
+            <div className="px-4 flex-col items-center justify-center md:justify-normal md:px-[120px] space-y-2 text-sm">
                 <div className="flex-col font-Frank space-y-4 mt-4">
                     <p className="text-center text-xl font-bold">Privacy Policy</p>
                     <p className="font-bold">Welcome to Funtastic Connexions Private Limited (Juleo, Our, We, Us). </p>
