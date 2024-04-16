@@ -1,0 +1,137 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* ----------------------------------------------------------------------- */
+
+.custom-break-words {
+  word-break: break-word;
+}
+
+
+@layer base {
+  html {
+    font-family: "DM Sans", system-ui, sans-serif;
+
+  }
+}
+
+.withJuleoGradient {
+  background: linear-gradient(180deg, #62104B 0%, #7C144C 100%)
+}
+
+.box_shadow_bot {
+  box-shadow: 0px 15px 5px -12px #E9E8EC;
+}
+
+.box_shadow_bot_wine {
+  box-shadow: 0px 15px 2px -14px #E5D0DB;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.dropdown-container {
+  animation: fade-in 0.3s ease-in-out;
+}
+
+.dropdown-enter {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.dropdown-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.dropdown-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dropdown-exit-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.dropdown-container {
+  /* position: absolute; */
+  /* top: 100%; */
+  /* right: 0; */
+  /* width: 100%; */
+  background-color: red;
+  /* border-radius: 4px; */
+  /* box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.logo-path path {
+  stroke: #fff;
+  stroke-width: 0;
+  stroke-dasharray: 900;
+}
+.logo-path path {
+  animation: letter-animation 1.5s ease-in-out forwards infinite;
+}
+
+@keyframes letter-animation {
+  50% {
+      stroke-dashoffset: 0;
+      stroke-width: 0;
+      fill-opacity: 0;
+  }
+  100% {
+      stroke-width: 0;
+      stroke-dashoffset: 0;
+      fill-opacity: 1;
+  }
+}
+
+.fade-out-container {
+  opacity: 1;
+  transition: opacity 3s ease-out; /* Adjust the duration and easing as needed */
+}
+
+.fade-out-container.loaded {
+  opacity: 0;
+}
+
+.path_thread {
+  stroke-dasharray: 3500;
+  stroke-dashoffset: 0;
+  animation: dash 3s ease-in-out 1;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 3500;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
